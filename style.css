@@ -133,3 +133,30 @@ h3{
     font-size: 25px;
     font-weight: 700;
 }
+/* styles for recent trips */
+.recent-trips{
+    text-align: center;
+    margin: 20px 0;
+}
+.recent-trips h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: -5px;
+}
+.nework{
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 20px 20px 50px grey;
+}
+.for-img img{
+    width: 100%;
+}
+.available-trips{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0;
+    margin: 50px 50px;
+}
