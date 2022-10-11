@@ -13,16 +13,24 @@
     height:100vh;
     background-size:cover;
     background-position: center;
+
  }
 .container{
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding:20px ;
     background-color:whitesmoke;
-
+    position:sticky;
+    top:0;
+  
+  
 }
-
+nav{
+    position:sticky;
+    top:0;
+}
 nav ul li{
     list-style: none;
     display:inline-block;
@@ -30,9 +38,7 @@ nav ul li{
     padding-left: 30px;
     padding-right: 30px;
     font-size: 20px;
-    font-weight: 600;
-    
-   
+    font-weight: 600;  
 }
 nav ul li a{
     text-decoration: none;
@@ -63,11 +69,13 @@ nav ul li a:hover{
     color:darkred;
 }
 .bg-title{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 20%;
+    
 }
 .bg-title h1{
     color:black;
@@ -102,7 +110,7 @@ nav ul li a:hover{
     line-height: -4px;
 
 }
-/* style for blog1 */
+ /* style for blog1 */
 .blog1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -119,7 +127,7 @@ nav ul li a:hover{
     
 }
  
-/* styles for blog2 */
+ /* styles for blog2  */
 .blog2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -143,6 +151,7 @@ h3{
     font-weight: 700;
     line-height: -5px;
 }
+/* styles for card */
 .nework{
     width: 400px;
     height: 550px;
@@ -159,4 +168,46 @@ h3{
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0;
     margin: 50px 50px;
+}
+
+/* styles for footer */
+footer{
+    background-color: black;
+    color: white;
+   
+}
+.footer-title h2{
+    font-size: 35px;
+}
+.footer-title p{
+    padding-top: 10px;
+}
+
+.frist-hlaf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 50px;
+    padding-top: 50px;
+    
+}
+
+.second-hlaf{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 50px;
+    padding-bottom: 50px;
+}
+.column ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+#about-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer-icon a{
+    font-size:35px;
+    color:white;
+    padding:0 10px;
 }
